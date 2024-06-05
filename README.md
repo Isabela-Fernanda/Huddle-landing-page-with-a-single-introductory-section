@@ -27,7 +27,7 @@ Mobile
 
 ### Links
 
-- Live Site URL: [Huddle landing page with single introductory section]()
+- Live Site URL: [Huddle landing page with single introductory section](https://isabela-fernanda.github.io/Quest-HTML-e-CSS-Avancados/)
 
 ## Meu processo
 
