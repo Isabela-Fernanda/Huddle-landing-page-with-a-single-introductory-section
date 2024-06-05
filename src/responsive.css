@@ -1,0 +1,108 @@
+@media(max-width: 419px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        padding: 3rem;
+    }
+
+    .logo {
+        float: none;
+    }
+
+    main{
+        margin: 2rem 2rem;
+    }
+
+    h1 {
+        margin: 4rem 0rem 1.5rem;
+        font-size: 3.2rem;
+    }
+
+    p {
+        font-size: 2.2rem;
+    }
+
+    button {
+        margin: 4.78rem 0rem 0rem;
+        max-width: 25rem;
+    }
+
+    a {
+        margin: 4rem 1rem;
+    }
+}
+
+
+@media(min-width: 1024px) {
+   body {
+    background-image: url(../images/bg-desktop.svg);
+    }
+
+    header {
+        padding: 5.4rem 6.8rem;
+    }
+
+    .logo {
+        width: 21.8rem;
+    }
+
+    main{
+        height: 90%;
+        max-height: 58.8rem;
+        display: grid;
+        grid-template-areas: "image texto";
+        column-gap: 4.8rem;
+        margin: 4.8rem 9.3rem 0rem 7.35rem;
+    }
+
+    .image {
+        grid-area: image;
+        min-width: 40rem;
+        max-width: 70.8rem;
+    }
+
+    .texto {
+        max-height: 31.3rem;
+        grid-area: texto;
+        display: flex;
+        flex-direction: column;
+        max-width: 51.4rem;
+        padding: 0rem;
+        margin: 0rem 0rem 10.4rem 0.5rem;
+        text-align: left;
+    }
+
+    h1 {
+        text-align: left;
+        margin: 0rem 0rem 2rem;
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1.9rem;
+        line-height: 2.7rem;
+        margin: 0rem;
+    }
+
+    button {
+        max-width: 20rem;
+        padding: 1.35rem;
+        margin: 1.8rem 0rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: right;
+        padding-bottom: 5rem ;
+        margin: 0rem 7rem;
+    }
+    
+    a {
+        font-size: 2rem; 
+        margin: 2rem 0.8rem;
+        padding: 0.2rem 0.3rem;
+    }
+}

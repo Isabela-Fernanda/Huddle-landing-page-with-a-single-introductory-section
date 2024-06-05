@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--Violet);
+  background-image: url(../images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  grid-template-areas: "header" "main" "footer";
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  height: 100vh;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+header {
+    grid-area: header;
+    padding: 6.2rem 6.6rem;
+}
+
+.logo {
+    float: left;
+    width: 26rem;
+}
+
+main {
+    grid-area: main;
+    margin: 12.2rem 7.35rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+h1 {
+    margin: 11.5rem 0rem 2.8rem;
+    font-weight: 600;
+    font-size: 4.8rem;
+}
+
+p {
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3.36rem;
+    line-height: 4.8rem;
+}
+
+button {
+    font-weight: 400;
+    font-size: 2.4rem;
+    margin: 4.78rem 0rem;
+    width: 39.8rem;
+    padding: 2.52rem;
+    border-radius: 4rem;
+    background-color: #fff;
+    color: var(--Violet);
+}
+
+button:hover {
+    background-color: var(--Soft-Magenta);
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    font-size: 2.8rem; 
+    margin: 8rem 1rem;
+    padding: 0.5rem 0.6rem;
+    border: 0.2rem solid #fff;
+    border-radius: 50%;
+    color: #fff;
+}
+
+a:hover {
+    border: 0.2rem solid hsl(323, 100%, 49%);
+    color: hsl(323, 100%, 49%);
+}
+
+i {
+    float: center;   
+}
+
+.fa-facebook-f {
+    margin: 0.4rem 1rem;
+}
+
+.fa-twitter {
+    margin: 0.6rem;
+}
+
+.fa-instagram{
+    margin: 0.78rem;
+}
